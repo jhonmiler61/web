@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap');
+/*variables*/
+:root{
+    --green-color:  #7ACC2D;
+    --white-color: white;
+    --black-color: #313337;
+    /*Espaciado*/
+    --space:10px;
+
+    /*Tipografia*/
+    --normal: 14px;
+    /*box shadow*/
+    --box: 0 0 3px var(--black-color);
+
+}
+
+
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+nav{
+    background-color: var(--green-color);
+    padding: var(--space);
+    padding-left: 20px;
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding: 0px 10px 0px 0px ;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+nav li a:hover{
+    color: var(--white-color);
+}
+
+/*...................Main section..........*/
+.main_section{
+    padding: 15%;
+    text-align: center;
+}
+.products{
+    background-image:  url("../images/curve.webp") ;
+    height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 15%;
+    display: flex;
+   /* justify-content: space-between;*/
+
+}
+.product .content{
+    background-color: var(--white-color);;
+    padding: 15px;
+    box-shadow: var(--box);
+    border-radius: 6px;
+}
+.product{
+    padding: 10px;
+    margin-top: -160px;
+}
+.img_content{
+    text-align: center;
+}
+.main_button{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
+    border: 0px solid var(--black-color);
+    box-shadow: var(--box);
+    border-radius: 5px;
+    }
+
+    .main_button:hover{
+        background-color: rgb(101, 134, 70);
+    }
+        
