@@ -91,3 +91,56 @@ nav li a:hover{
         background-color: rgb(101, 134, 70);
     }
         
+    /*Beneficios*/
+    .beneficios{
+        padding: 10%;
+        display: flex;
+    }
+
+    .beneficio{
+        text-align: center;
+        padding: 20px;
+    }
+    .beneficio img{
+        max-height: 100px;
+    }
+    .text_beneficio{
+        text-align: justify;
+    }
+    
+    /*Mentions*/
+
+    .mentions{
+        display: flex;
+        padding: 5%;
+    }
+
+    .mention img{
+        width: 100%;
+    }
+    .mention{
+        padding: var(--space);
+    }
+
+    .content_mention{
+        box-shadow: -2px 2px 3px 5px #e6e5e9;
+    }
+
+    h2.mention_title{
+        text-align: center;
+      }
+    .mention .text{
+        padding: var(--space);
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        font-size: var(--normal);
+        background-color: var(--black-color);
+        padding: var(--space);
+        color: var(--white-color);
+
+    }
+
+
