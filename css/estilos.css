@@ -9,10 +9,14 @@
     --space:10px;
 
     /*Tipografia*/
-    --normal: 14px;
+    --normal: 15px;
     /*box shadow*/
     --box: 0 0 3px var(--black-color);
 
+}
+
+p ,label{
+    font-size: var(--normal);
 }
 
 
@@ -144,3 +148,27 @@ nav li a:hover{
     }
 
 
+/*Ventas*/
+
+.modulo-pago{
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+}
+.modulo-pago-images{
+    max-width: 150px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.modulo-pago input{
+    margin-top: var(--space);
+    width: 100%;
+    height: 35px;
+    border: 1px solid var(--black-color);
+    border-radius: 3px;
+
+}
+.modulo-pago{
+    padding: 20px;
+}
