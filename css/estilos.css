@@ -147,6 +147,10 @@ nav li a:hover{
 
     }
 
+    .contact{
+        color: var(--green-color)
+    }
+
 
 /*Ventas*/
 
@@ -161,14 +165,20 @@ nav li a:hover{
     width: 100%;
     margin: auto;
 }
-.modulo-pago input{
+.data{
     margin-top: var(--space);
     width: 100%;
     height: 35px;
     border: 1px solid var(--black-color);
     border-radius: 3px;
+    box-sizing: border-box;
 
 }
 .modulo-pago{
     padding: 20px;
+}
+
+.modulo-pago .main_button{
+    font-size: 18px;
+
 }
